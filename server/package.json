@@ -1,0 +1,16 @@
+{
+  "name": "alicloud-kubernetes-server",
+  "version": "1.0.0",
+  "description": "Server to practice a deployment with kubernetes to alibaba cloud",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm run mocha"
+  },
+  "author": "Camilo Hernández",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "4.18.1"
+  }
+}
